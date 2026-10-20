@@ -1,4 +1,4 @@
-"""Ошибки приложения."""
+"""Ошибки приложения; в HTTP-коды их переводит main.py."""
 
 
 class TrainerError(Exception):
