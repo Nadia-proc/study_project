@@ -1,0 +1,19 @@
+# Секреты и локальные настройки
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Тесты и логи
+.pytest_cache/
+.coverage
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
