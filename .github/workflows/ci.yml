@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest -v
+
+      - name: Smoke test (start server, check /health and /version)
+        run: |
+          cp .env.example .env
+          uvicorn app_final:app --env-file .env --host 127.0.0.1 --port 8000 > uvicorn.log 2>&1 &
+          curl --silent --show-error --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:8000/health
+          curl --silent --show-error --fail http://127.0.0.1:8000/version
+
+      - name: Show server log
+        if: always()
+        run: cat uvicorn.log || true
+
+      - name: Upload application artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verb-trainer-app
+          path: |
+            app_final.py
+            conjugator/
+            requirements.txt
+            README.md
+            .env.example
+          include-hidden-files: true
