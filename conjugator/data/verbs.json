@@ -1,0 +1,23 @@
+[
+  {"infinitive": "знать", "conjugation": "I", "translation": "to know", "forms": ["знаю", "знаешь", "знает", "знаем", "знаете", "знают"]},
+  {"infinitive": "читать", "conjugation": "I", "translation": "to read", "forms": ["читаю", "читаешь", "читает", "читаем", "читаете", "читают"]},
+  {"infinitive": "делать", "conjugation": "I", "translation": "to do", "forms": ["делаю", "делаешь", "делает", "делаем", "делаете", "делают"]},
+  {"infinitive": "изучать", "conjugation": "I", "translation": "to study", "forms": ["изучаю", "изучаешь", "изучает", "изучаем", "изучаете", "изучают"]},
+  {"infinitive": "слушать", "conjugation": "I", "translation": "to listen", "forms": ["слушаю", "слушаешь", "слушает", "слушаем", "слушаете", "слушают"]},
+  {"infinitive": "играть", "conjugation": "I", "translation": "to play", "forms": ["играю", "играешь", "играет", "играем", "играете", "играют"]},
+  {"infinitive": "думать", "conjugation": "I", "translation": "to think", "forms": ["думаю", "думаешь", "думает", "думаем", "думаете", "думают"]},
+  {"infinitive": "понимать", "conjugation": "I", "translation": "to understand", "forms": ["понимаю", "понимаешь", "понимает", "понимаем", "понимаете", "понимают"]},
+  {"infinitive": "работать", "conjugation": "I", "translation": "to work", "forms": ["работаю", "работаешь", "работает", "работаем", "работаете", "работают"]},
+  {"infinitive": "отдыхать", "conjugation": "I", "translation": "to rest", "forms": ["отдыхаю", "отдыхаешь", "отдыхает", "отдыхаем", "отдыхаете", "отдыхают"]},
+  {"infinitive": "обедать", "conjugation": "I", "translation": "to have lunch", "forms": ["обедаю", "обедаешь", "обедает", "обедаем", "обедаете", "обедают"]},
+  {"infinitive": "завтракать", "conjugation": "I", "translation": "to have breakfast", "forms": ["завтракаю", "завтракаешь", "завтракает", "завтракаем", "завтракаете", "завтракают"]},
+  {"infinitive": "ужинать", "conjugation": "I", "translation": "to have dinner", "forms": ["ужинаю", "ужинаешь", "ужинает", "ужинаем", "ужинаете", "ужинают"]},
+  {"infinitive": "спрашивать", "conjugation": "I", "translation": "to ask", "forms": ["спрашиваю", "спрашиваешь", "спрашивает", "спрашиваем", "спрашиваете", "спрашивают"]},
+  {"infinitive": "отвечать", "conjugation": "I", "translation": "to answer", "forms": ["отвечаю", "отвечаешь", "отвечает", "отвечаем", "отвечаете", "отвечают"]},
+  {"infinitive": "плавать", "conjugation": "I", "translation": "to swim", "forms": ["плаваю", "плаваешь", "плавает", "плаваем", "плаваете", "плавают"]},
+  {"infinitive": "гулять", "conjugation": "I", "translation": "to walk", "forms": ["гуляю", "гуляешь", "гуляет", "гуляем", "гуляете", "гуляют"]},
+  {"infinitive": "говорить", "conjugation": "II", "translation": "to speak", "forms": ["говорю", "говоришь", "говорит", "говорим", "говорите", "говорят"]},
+  {"infinitive": "помнить", "conjugation": "II", "translation": "to remember", "forms": ["помню", "помнишь", "помнит", "помним", "помните", "помнят"]},
+  {"infinitive": "курить", "conjugation": "II", "translation": "to smoke", "forms": ["курю", "куришь", "курит", "курим", "курите", "курят"]},
+  {"infinitive": "смотреть", "conjugation": "II", "translation": "to watch", "forms": ["смотрю", "смотришь", "смотрит", "смотрим", "смотрите", "смотрят"]}
+]
